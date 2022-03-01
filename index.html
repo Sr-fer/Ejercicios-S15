@@ -1,0 +1,63 @@
+<html>
+
+<head></head>
+
+<body>
+    <form id="formulario" action="http://moodle.danielcastelao.org/daw/action_page.php" method="GET">
+        <label for="nif">NIF: <input name="nif" id="nif" type="text"></label>
+        <br>
+        <br>
+        <label for="nombre">Nombre: <input name="nombre" id="nombre" type="text"></label>
+        <br>
+        <br>
+        <label for="apellidos">Apellidos: <input name="apellidos" id="apellidos" type="text"></label>
+        <br>
+        <br>
+        <label>Edad</label>
+        <br>
+        <label for="edad"><input name="edad" class="radio" type="radio">
+            15-19</label>
+        <br>
+        <label for="edad"><input name="edad" class="radio" type="radio">
+            20-29</label>
+        <br>
+        <label for="edad"><input name="edad" class="radio" type="radio">
+            30-40</label>
+        <br>
+        <br>
+        <label for="estado">Estado civil<br>
+            <select name="estado" id="estado" multiple="multiple">
+                <option value="soltero">Soltero</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>Aficiones</label>
+        <br>
+        <label for="cine"><input type="checkbox" class="check" name="cine" value="cine">Cine</label>
+        <br>
+        <label for="deportes"><input type="checkbox" class="check" name="deportes" value="deportes"
+                checked>Deportes</label>
+        <br>
+        <label for="lectura"><input type="checkbox" class="check" name="lectura" value="lectura">Lectura</label>
+        <br>
+        <label for="senderismo"><input type="checkbox" class="check" name="senderismo"
+                value="senderismo">Senderismo</label>
+        <br>
+        <label for="comentarios">Comentarios:</label>
+        <br>
+        <textarea id="comentarios" rows="8" cols="35" >Escribe aquí tus comentarios...</textarea>
+        <br>
+        <br>
+        <label for="envio"><input type="button" id="envio" name="envio" value="Enviar"></label>
+        <label for="reset"><input type="reset" id="reset" name="reset" value="Reset"></label>
+    </form>
+</body>
+<footer>
+    <script src="comprobador.js"></script>
+    <script src="main.js"></script>
+</footer>
+
+</html>
