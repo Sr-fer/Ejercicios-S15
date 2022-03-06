@@ -38,7 +38,7 @@ document.getElementById("reset").addEventListener("click", () => {
 function reset() {
     location.reload()
 }
-
+//aficiones
 var checkboxes = document.getElementsByClassName("check");
 [].forEach.call(checkboxes, function(checkbox) {
     checkbox.addEventListener("change", function() {
@@ -56,7 +56,7 @@ for (let i = 0; i < anio.length; i++) {
         cambiar_aficiones(i)
     })
 }
-function cambiar_aficiones(anio,) {
+function cambiar_aficiones(anio) {
     switch (anio) {
         case 0: {
             aficiones[9].innerHTML = '<input type="checkbox" class="check" checked>Futbol'
